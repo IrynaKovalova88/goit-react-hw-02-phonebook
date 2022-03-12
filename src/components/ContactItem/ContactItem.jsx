@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import {
   ContactItemStyled,
   ContactButtonDeleteStyled,
-} from "./ContactItem.styles";
+} from "./ContactItem.styled";
 
 export const ContactItem = ({ id, name, number }, onDeleteContact) => {
   return (
